@@ -14,27 +14,29 @@
 		08491F5927391CDD00033C5B /* MiniProjetFCWBN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08491F5727391CDD00033C5B /* MiniProjetFCWBN.xcdatamodeld */; };
 		08491F5B27391CDF00033C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08491F5A27391CDF00033C5B /* Assets.xcassets */; };
 		08491F5E27391CDF00033C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08491F5C27391CDF00033C5B /* LaunchScreen.storyboard */; };
-		08491F6927391CDF00033C5B /* MiniProjetFCWBNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08491F6827391CDF00033C5B /* MiniProjetFCWBNTests.swift */; };
-		08491F7327391CDF00033C5B /* MiniProjetFCWBNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08491F7227391CDF00033C5B /* MiniProjetFCWBNUITests.swift */; };
-		08491F7527391CDF00033C5B /* MiniProjetFCWBNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08491F7427391CDF00033C5B /* MiniProjetFCWBNUITestsLaunchTests.swift */; };
+		38B795A543A487B3EB636FFC /* Pods_MiniProjetFCWBN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1974239BC74BD072991E55BC /* Pods_MiniProjetFCWBN.framework */; };
+		D863CE11274CE2B600B962C1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863CE10274CE2B600B962C1 /* SignUpViewController.swift */; };
+		D863CE13274CE30300B962C1 /* ConstatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863CE12274CE30300B962C1 /* ConstatViewController.swift */; };
+		D882FF46274D7647009FEAF2 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882FF45274D7647009FEAF2 /* MapsViewController.swift */; };
+		D8AC367F2754EC8200D53E92 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC367E2754EC8200D53E92 /* DashboardViewController.swift */; };
+		D8AC368127557CC300D53E92 /* ScanQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC368027557CC300D53E92 /* ScanQrViewController.swift */; };
+		D8E84EBC27501A480032A9FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E84EBB27501A480032A9FD /* Constants.swift */; };
+		D8E84EBE275023350032A9FD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E84EBD275023350032A9FD /* UserModel.swift */; };
+		D8E84EC0275034070032A9FD /* RoleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E84EBF275034070032A9FD /* RoleModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		08491F6527391CDF00033C5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08491F4327391CDD00033C5B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 08491F4A27391CDD00033C5B;
-			remoteInfo = MiniProjetFCWBN;
+/* Begin PBXCopyFilesBuildPhase section */
+		D821CF6927504A3C00CE47EB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08491F6F27391CDF00033C5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08491F4327391CDD00033C5B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 08491F4A27391CDD00033C5B;
-			remoteInfo = MiniProjetFCWBN;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08491F4B27391CDD00033C5B /* MiniProjetFCWBN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniProjetFCWBN.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,11 +48,17 @@
 		08491F5A27391CDF00033C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08491F5D27391CDF00033C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08491F5F27391CDF00033C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08491F6427391CDF00033C5B /* MiniProjetFCWBNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProjetFCWBNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		08491F6827391CDF00033C5B /* MiniProjetFCWBNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProjetFCWBNTests.swift; sourceTree = "<group>"; };
-		08491F6E27391CDF00033C5B /* MiniProjetFCWBNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProjetFCWBNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		08491F7227391CDF00033C5B /* MiniProjetFCWBNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProjetFCWBNUITests.swift; sourceTree = "<group>"; };
-		08491F7427391CDF00033C5B /* MiniProjetFCWBNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProjetFCWBNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1974239BC74BD072991E55BC /* Pods_MiniProjetFCWBN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniProjetFCWBN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D93A5C9BD69C5570B2AB12 /* Pods-MiniProjetFCWBN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProjetFCWBN.debug.xcconfig"; path = "Target Support Files/Pods-MiniProjetFCWBN/Pods-MiniProjetFCWBN.debug.xcconfig"; sourceTree = "<group>"; };
+		BE743639D3F753C8665F2B3B /* Pods-MiniProjetFCWBN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProjetFCWBN.release.xcconfig"; path = "Target Support Files/Pods-MiniProjetFCWBN/Pods-MiniProjetFCWBN.release.xcconfig"; sourceTree = "<group>"; };
+		D863CE10274CE2B600B962C1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D863CE12274CE30300B962C1 /* ConstatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstatViewController.swift; sourceTree = "<group>"; };
+		D882FF45274D7647009FEAF2 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		D8AC367E2754EC8200D53E92 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D8AC368027557CC300D53E92 /* ScanQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQrViewController.swift; sourceTree = "<group>"; };
+		D8E84EBB27501A480032A9FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D8E84EBD275023350032A9FD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D8E84EBF275034070032A9FD /* RoleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08491F6127391CDF00033C5B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08491F6B27391CDF00033C5B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				38B795A543A487B3EB636FFC /* Pods_MiniProjetFCWBN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +76,11 @@
 		08491F4227391CDD00033C5B = {
 			isa = PBXGroup;
 			children = (
+				D8E84EBB27501A480032A9FD /* Constants.swift */,
 				08491F4D27391CDD00033C5B /* MiniProjetFCWBN */,
-				08491F6727391CDF00033C5B /* MiniProjetFCWBNTests */,
-				08491F7127391CDF00033C5B /* MiniProjetFCWBNUITests */,
 				08491F4C27391CDD00033C5B /* Products */,
+				FCF2E1ADD0BCC298F8854B84 /* Pods */,
+				2A5794A66C06C216362EA5AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				08491F4B27391CDD00033C5B /* MiniProjetFCWBN.app */,
-				08491F6427391CDF00033C5B /* MiniProjetFCWBNTests.xctest */,
-				08491F6E27391CDF00033C5B /* MiniProjetFCWBNUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +95,11 @@
 		08491F4D27391CDD00033C5B /* MiniProjetFCWBN */ = {
 			isa = PBXGroup;
 			children = (
+				D88A5B3E274C544E00D3E7C9 /* ViewModel */,
+				D88A5B3D274C543B00D3E7C9 /* Controller */,
+				D88A5B3C274C542D00D3E7C9 /* Model */,
 				08491F4E27391CDD00033C5B /* AppDelegate.swift */,
 				08491F5027391CDD00033C5B /* SceneDelegate.swift */,
-				08491F5227391CDD00033C5B /* ViewController.swift */,
 				08491F5427391CDD00033C5B /* Main.storyboard */,
 				08491F5A27391CDF00033C5B /* Assets.xcassets */,
 				08491F5C27391CDF00033C5B /* LaunchScreen.storyboard */,
@@ -113,21 +109,50 @@
 			path = MiniProjetFCWBN;
 			sourceTree = "<group>";
 		};
-		08491F6727391CDF00033C5B /* MiniProjetFCWBNTests */ = {
+		2A5794A66C06C216362EA5AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08491F6827391CDF00033C5B /* MiniProjetFCWBNTests.swift */,
+				1974239BC74BD072991E55BC /* Pods_MiniProjetFCWBN.framework */,
 			);
-			path = MiniProjetFCWBNTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		08491F7127391CDF00033C5B /* MiniProjetFCWBNUITests */ = {
+		D88A5B3C274C542D00D3E7C9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				08491F7227391CDF00033C5B /* MiniProjetFCWBNUITests.swift */,
-				08491F7427391CDF00033C5B /* MiniProjetFCWBNUITestsLaunchTests.swift */,
+				D8E84EBD275023350032A9FD /* UserModel.swift */,
+				D8E84EBF275034070032A9FD /* RoleModel.swift */,
 			);
-			path = MiniProjetFCWBNUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D88A5B3D274C543B00D3E7C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08491F5227391CDD00033C5B /* ViewController.swift */,
+				D863CE10274CE2B600B962C1 /* SignUpViewController.swift */,
+				D863CE12274CE30300B962C1 /* ConstatViewController.swift */,
+				D882FF45274D7647009FEAF2 /* MapsViewController.swift */,
+				D8AC367E2754EC8200D53E92 /* DashboardViewController.swift */,
+				D8AC368027557CC300D53E92 /* ScanQrViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D88A5B3E274C544E00D3E7C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCF2E1ADD0BCC298F8854B84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6D93A5C9BD69C5570B2AB12 /* Pods-MiniProjetFCWBN.debug.xcconfig */,
+				BE743639D3F753C8665F2B3B /* Pods-MiniProjetFCWBN.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08491F7827391CDF00033C5B /* Build configuration list for PBXNativeTarget "MiniProjetFCWBN" */;
 			buildPhases = (
+				33843286D171A6212A067A1C /* [CP] Check Pods Manifest.lock */,
 				08491F4727391CDD00033C5B /* Sources */,
 				08491F4827391CDD00033C5B /* Frameworks */,
 				08491F4927391CDD00033C5B /* Resources */,
+				D821CF6927504A3C00CE47EB /* Embed Frameworks */,
+				515F6DB0EE1E67FD287A0BBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,42 +177,6 @@
 			productName = MiniProjetFCWBN;
 			productReference = 08491F4B27391CDD00033C5B /* MiniProjetFCWBN.app */;
 			productType = "com.apple.product-type.application";
-		};
-		08491F6327391CDF00033C5B /* MiniProjetFCWBNTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 08491F7B27391CDF00033C5B /* Build configuration list for PBXNativeTarget "MiniProjetFCWBNTests" */;
-			buildPhases = (
-				08491F6027391CDF00033C5B /* Sources */,
-				08491F6127391CDF00033C5B /* Frameworks */,
-				08491F6227391CDF00033C5B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				08491F6627391CDF00033C5B /* PBXTargetDependency */,
-			);
-			name = MiniProjetFCWBNTests;
-			productName = MiniProjetFCWBNTests;
-			productReference = 08491F6427391CDF00033C5B /* MiniProjetFCWBNTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		08491F6D27391CDF00033C5B /* MiniProjetFCWBNUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 08491F7E27391CDF00033C5B /* Build configuration list for PBXNativeTarget "MiniProjetFCWBNUITests" */;
-			buildPhases = (
-				08491F6A27391CDF00033C5B /* Sources */,
-				08491F6B27391CDF00033C5B /* Frameworks */,
-				08491F6C27391CDF00033C5B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				08491F7027391CDF00033C5B /* PBXTargetDependency */,
-			);
-			name = MiniProjetFCWBNUITests;
-			productName = MiniProjetFCWBNUITests;
-			productReference = 08491F6E27391CDF00033C5B /* MiniProjetFCWBNUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,14 +190,6 @@
 				TargetAttributes = {
 					08491F4A27391CDD00033C5B = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					08491F6327391CDF00033C5B = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 08491F4A27391CDD00033C5B;
-					};
-					08491F6D27391CDF00033C5B = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 08491F4A27391CDD00033C5B;
 					};
 				};
 			};
@@ -223,8 +207,6 @@
 			projectRoot = "";
 			targets = (
 				08491F4A27391CDD00033C5B /* MiniProjetFCWBN */,
-				08491F6327391CDF00033C5B /* MiniProjetFCWBNTests */,
-				08491F6D27391CDF00033C5B /* MiniProjetFCWBNUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,21 +222,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08491F6227391CDF00033C5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08491F6C27391CDF00033C5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33843286D171A6212A067A1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniProjetFCWBN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		515F6DB0EE1E67FD287A0BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniProjetFCWBN/Pods-MiniProjetFCWBN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniProjetFCWBN/Pods-MiniProjetFCWBN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniProjetFCWBN/Pods-MiniProjetFCWBN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08491F4727391CDD00033C5B /* Sources */ = {
@@ -262,43 +272,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				08491F5327391CDD00033C5B /* ViewController.swift in Sources */,
+				D863CE13274CE30300B962C1 /* ConstatViewController.swift in Sources */,
+				D882FF46274D7647009FEAF2 /* MapsViewController.swift in Sources */,
 				08491F5927391CDD00033C5B /* MiniProjetFCWBN.xcdatamodeld in Sources */,
+				D8AC368127557CC300D53E92 /* ScanQrViewController.swift in Sources */,
 				08491F4F27391CDD00033C5B /* AppDelegate.swift in Sources */,
 				08491F5127391CDD00033C5B /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08491F6027391CDF00033C5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08491F6927391CDF00033C5B /* MiniProjetFCWBNTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08491F6A27391CDF00033C5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08491F7527391CDF00033C5B /* MiniProjetFCWBNUITestsLaunchTests.swift in Sources */,
-				08491F7327391CDF00033C5B /* MiniProjetFCWBNUITests.swift in Sources */,
+				D863CE11274CE2B600B962C1 /* SignUpViewController.swift in Sources */,
+				D8E84EBE275023350032A9FD /* UserModel.swift in Sources */,
+				D8AC367F2754EC8200D53E92 /* DashboardViewController.swift in Sources */,
+				D8E84EBC27501A480032A9FD /* Constants.swift in Sources */,
+				D8E84EC0275034070032A9FD /* RoleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		08491F6627391CDF00033C5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 08491F4A27391CDD00033C5B /* MiniProjetFCWBN */;
-			targetProxy = 08491F6527391CDF00033C5B /* PBXContainerItemProxy */;
-		};
-		08491F7027391CDF00033C5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 08491F4A27391CDD00033C5B /* MiniProjetFCWBN */;
-			targetProxy = 08491F6F27391CDF00033C5B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		08491F5427391CDD00033C5B /* Main.storyboard */ = {
@@ -438,11 +426,13 @@
 		};
 		08491F7927391CDF00033C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D93A5C9BD69C5570B2AB12 /* Pods-MiniProjetFCWBN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniProjetFCWBN/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,11 +456,13 @@
 		};
 		08491F7A27391CDF00033C5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE743639D3F753C8665F2B3B /* Pods-MiniProjetFCWBN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniProjetFCWBN/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -492,98 +484,6 @@
 			};
 			name = Release;
 		};
-		08491F7C27391CDF00033C5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-SIM2.MiniProjetFCWBNTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniProjetFCWBN.app/MiniProjetFCWBN";
-			};
-			name = Debug;
-		};
-		08491F7D27391CDF00033C5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-SIM2.MiniProjetFCWBNTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniProjetFCWBN.app/MiniProjetFCWBN";
-			};
-			name = Release;
-		};
-		08491F7F27391CDF00033C5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-SIM2.MiniProjetFCWBNUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MiniProjetFCWBN;
-			};
-			name = Debug;
-		};
-		08491F8027391CDF00033C5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-SIM2.MiniProjetFCWBNUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MiniProjetFCWBN;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -601,24 +501,6 @@
 			buildConfigurations = (
 				08491F7927391CDF00033C5B /* Debug */,
 				08491F7A27391CDF00033C5B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		08491F7B27391CDF00033C5B /* Build configuration list for PBXNativeTarget "MiniProjetFCWBNTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08491F7C27391CDF00033C5B /* Debug */,
-				08491F7D27391CDF00033C5B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		08491F7E27391CDF00033C5B /* Build configuration list for PBXNativeTarget "MiniProjetFCWBNUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08491F7F27391CDF00033C5B /* Debug */,
-				08491F8027391CDF00033C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
