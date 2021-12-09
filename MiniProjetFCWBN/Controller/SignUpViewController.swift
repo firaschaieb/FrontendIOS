@@ -12,6 +12,10 @@ class SignUpViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewD
     
     
     @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var firstNameField: UITextField!
+    @IBOutlet weak var lastNameField: UITextField!
+    @IBOutlet weak var phoneNumberField: UITextField!
+    @IBOutlet weak var addressField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var roleField: UITextField!
@@ -24,7 +28,7 @@ class SignUpViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewD
         
     }
     var selectedRole: String?
-    let roleList = ["user", "moderator", "admin"]
+    let roleList = ["assure", "SOS", "assurance"]
     
         func numberOfComponents(in pickerView: UIPickerView) -> Int {
             return 1
@@ -45,6 +49,10 @@ class SignUpViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewD
     @IBAction func RegisterButtonQction(_ sender: Any) {
         let url = "http://localhost:8080/api/auth/signup"
         let username = usernameField.text!
+        let firstname = firstNameField.text!
+        let lastname = lastNameField.text!
+        let phone = phoneNumberField.text!
+        let address = addressField.text!
         let email = emailField.text!
         let password = passwordField.text!
         let confirmPassword = confirmPasswordField.text!
@@ -53,6 +61,10 @@ class SignUpViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewD
 
         let parameters = [
             "username": usernameField.text!,
+            "firstname": firstNameField.text!,
+            "lastname": lastNameField.text!,
+            "phone": phoneNumberField.text!,
+            "address": addressField.text!,
             "email": emailField.text!,
             "password": passwordField.text!,
             "confirmPassword": confirmPasswordField.text!,
@@ -60,7 +72,7 @@ class SignUpViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewD
         ]
         
         //check for empty fields
-        if username.isEmpty || email.isEmpty || password.isEmpty || confirmPassword.isEmpty || roles.isEmpty
+        if username.isEmpty || email.isEmpty || password.isEmpty || confirmPassword.isEmpty || roles.isEmpty || firstname.isEmpty || lastname.isEmpty || phone.isEmpty || address.isEmpty
         {
             //dipslay alert message
             displayAlertMessage(alert: "No fields can be left empty")

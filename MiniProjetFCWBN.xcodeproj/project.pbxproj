@@ -15,6 +15,8 @@
 		08491F5B27391CDF00033C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08491F5A27391CDF00033C5B /* Assets.xcassets */; };
 		08491F5E27391CDF00033C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08491F5C27391CDF00033C5B /* LaunchScreen.storyboard */; };
 		38B795A543A487B3EB636FFC /* Pods_MiniProjetFCWBN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1974239BC74BD072991E55BC /* Pods_MiniProjetFCWBN.framework */; };
+		D8365788275D7C7000264457 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8365787275D7C7000264457 /* ProfileViewController.swift */; };
+		D836578A275D8BBC00264457 /* NewCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8365789275D8BBC00264457 /* NewCarViewController.swift */; };
 		D863CE11274CE2B600B962C1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863CE10274CE2B600B962C1 /* SignUpViewController.swift */; };
 		D863CE13274CE30300B962C1 /* ConstatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863CE12274CE30300B962C1 /* ConstatViewController.swift */; };
 		D882FF46274D7647009FEAF2 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882FF45274D7647009FEAF2 /* MapsViewController.swift */; };
@@ -51,6 +53,8 @@
 		1974239BC74BD072991E55BC /* Pods_MiniProjetFCWBN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniProjetFCWBN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D93A5C9BD69C5570B2AB12 /* Pods-MiniProjetFCWBN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProjetFCWBN.debug.xcconfig"; path = "Target Support Files/Pods-MiniProjetFCWBN/Pods-MiniProjetFCWBN.debug.xcconfig"; sourceTree = "<group>"; };
 		BE743639D3F753C8665F2B3B /* Pods-MiniProjetFCWBN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProjetFCWBN.release.xcconfig"; path = "Target Support Files/Pods-MiniProjetFCWBN/Pods-MiniProjetFCWBN.release.xcconfig"; sourceTree = "<group>"; };
+		D8365787275D7C7000264457 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D8365789275D8BBC00264457 /* NewCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarViewController.swift; sourceTree = "<group>"; };
 		D863CE10274CE2B600B962C1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D863CE12274CE30300B962C1 /* ConstatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstatViewController.swift; sourceTree = "<group>"; };
 		D882FF45274D7647009FEAF2 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 				D882FF45274D7647009FEAF2 /* MapsViewController.swift */,
 				D8AC367E2754EC8200D53E92 /* DashboardViewController.swift */,
 				D8AC368027557CC300D53E92 /* ScanQrViewController.swift */,
+				D8365787275D7C7000264457 /* ProfileViewController.swift */,
+				D8365789275D8BBC00264457 /* NewCarViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,12 +281,14 @@
 				D863CE13274CE30300B962C1 /* ConstatViewController.swift in Sources */,
 				D882FF46274D7647009FEAF2 /* MapsViewController.swift in Sources */,
 				08491F5927391CDD00033C5B /* MiniProjetFCWBN.xcdatamodeld in Sources */,
+				D836578A275D8BBC00264457 /* NewCarViewController.swift in Sources */,
 				D8AC368127557CC300D53E92 /* ScanQrViewController.swift in Sources */,
 				08491F4F27391CDD00033C5B /* AppDelegate.swift in Sources */,
 				08491F5127391CDD00033C5B /* SceneDelegate.swift in Sources */,
 				D863CE11274CE2B600B962C1 /* SignUpViewController.swift in Sources */,
 				D8E84EBE275023350032A9FD /* UserModel.swift in Sources */,
 				D8AC367F2754EC8200D53E92 /* DashboardViewController.swift in Sources */,
+				D8365788275D7C7000264457 /* ProfileViewController.swift in Sources */,
 				D8E84EBC27501A480032A9FD /* Constants.swift in Sources */,
 				D8E84EC0275034070032A9FD /* RoleModel.swift in Sources */,
 			);
@@ -430,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -448,6 +457,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-SIM2.MiniProjetFCWBN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -478,6 +489,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-SIM2.MiniProjetFCWBN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
